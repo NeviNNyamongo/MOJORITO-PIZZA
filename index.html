@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOJORITO|PIZZA</title>
+  <link rel="icon" href="Assets/Chef.png">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <section class="sec1">
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between small">
+          <div class="col-lg-2 col-sm-2 logo d-flex">
+            <img src="Assets/Chef.png" alt="Logo">
+            <p>Mojo<span class="rito">rito</span></p>
+          </div>
+          <div class="nav col-lg-5">
+            <ul class="d-flex mt-3 fw-bold nav-item">
+              <li><a href="#land"><span class="rito home">Home</span></a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="cart mt-2 fs-4 col-lg-1">
+            <a href="Pages/form.html"><ion-icon name="cart-outline" class="car"></ion-icon></a>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section class="land" id="land">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 pizza mt-4">
+          <img src="Assets/PIZZA.png" alt="Pizza" class="pizza">
+        </div>
+        <div class="col-lg-6 average d-flex flex-column align-items-center justify-content-center">
+          <img src="Assets/tomato.png" alt="Tomato" class="tomato">
+          <p class="fw-medium">not just the</p>
+          <p class="fw-medium">average <span class="rito">pizza</span>,</p>
+          <p class="fw-medium" class="its">it's an</p>
+          <img src="Assets/BASIL.png" alt="Basil" class="basil its">
+          <p class="fw-medium">experience!</p>
+          <img src="Assets/Paper.png" alt="Papper" class="papper">
+          <a href="Pages/form.html"><button class="btn">Order Now</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about mt-5" id="about">
+    <div class="mojo">
+      <div class="content">
+        <h2 class="fw-bold text-light text-center fs-2">About Us</h2>
+      <p class="text-light lh-lg fs-5 top">
+        Pizza has been around for an exceptionally long time. It has appeared in many variations on the tables of history.  Various cultures throughout time have served flatbreads with some type of savory topping, however, the dish we all know and love today likely originated in Naples.
+        Made from simple ingredients: flour, oil or lard, salt, garlic. The most basic was essentially garlic bread, while some were topped with cheese, basil, and tomatoes. Imported in from the Americas they were not well received, and most reputable gourmets and chefs would not use them. This made tomatoes a cheap product. Believe it or not, pizza was for a long time looked down on as disgusting street food, only fit to serve the beggar class.
+      </p>
+      <p class="text-light lh-lg fs-5">
+        Mojorito pizza offers its customers the chance to craft and contribute on deciding the ingredients that they'd love on their pizza. Mojorito pizza does not have readily available pizzas as it operates based on what the customer wants on theirs.
+      </p>
+      <span id="menu"></span>
+      </div>
+    </div>
+  </section>
+  <section class="caroll">
+    <div class="menu mt-3">
+      <h2 class="fw-bold text-center fs-2">Menu</h2>
+    </div>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="item-in d-flex justify-content-around bg-light">
+            <div class="infom mt-5">
+              <h3>Our on demand pizza dubbed</h3>
+              <h2 class="fw-bold"><span class="rito">Toluca Lake</span> Pizza</h2>
+              <p class="mt-3">Fennel pork sausage, spring onion, <br>
+                red onion, mozzarella, white sauce.
+              </p>   
+              <a href="Pages/form.html"><button class="btn mx-5 mb-3">Order Now</button></a>
+            </div>
+              <img src="Assets/Sacho-removebg-preview.png" class="d-block distrb" alt="Perri">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="item-in d-flex justify-content-around bg-light">
+            <div class="infom mt-5">
+              <h3>Our on demand pizza dubbed</h3>
+              <h2 class="fw-bold"><span class="rito">Margherita (v)</span> Pizza</h2>
+              <p class="mt-3">Roma tomatoes, basil, mozzarella, <br>
+                house-made tomato sauce.
+              </p>  
+              <a href="Pages/form.html"><button class="btn mx-5 mb-3">Order Now</button></a>
+            </div>
+              <img src="Assets/Pasicho-removebg-preview.png" class="d-block anothr" alt="Perri">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="item-in d-flex justify-content-around bg-light">
+            <div class="infom mt-5">
+              <h3>Our on demand pizza dubbed</h3>
+              <h2 class="fw-bold"><span class="rito">Fig & Prosciutto</span> Pizza</h2>
+              <p class="mt-3">Fig, prosciutto, mozzarella, <br>
+                caramelized onion, white sauce.
+              </p>   
+              <a href="Pages/form.html"><button class="btn mx-5 mb-3">Order Now</button></a>
+            </div>
+              <img src="Assets/bado-removebg-preview.png" class="d-block then" alt="Perri">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="end text-center mt-4">
+    <h3 class="fw-bold fs-2"><span class="rito">Order</span> in just 30 <br>minutes</h3>
+    <p>By creating your pizza from <br>scratch.</p>
+  </section>
+  <section class="footer" id="contact">
+    <div class="elements d-flex justify-content-between">
+      <div class="icons mx-5 mt-3">
+        <a href="#"><ion-icon name="call-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="location-outline"></ion-icon></a>
+      </div>
+      <div class="nevo d-flex mx-5">
+        <img src="Assets/Chef.png" alt="Logo">
+        <p>PB<span class="rito">nevo</span></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="JS/main.js"></script>
+</body>
+</html>
