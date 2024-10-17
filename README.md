@@ -20,4 +20,4 @@ The APP was first designed using Figma, then coded using HTML, CSS, JavaScript a
 To contribute or reach me out in any way, email me [here](mailto:nyamongonevin9@gmail.com)
 ### License
 *MIT license.*
-Copyright (c) 2022 **Nevin Nyamongo & Mojorito Pizza**
+Copyright (c) 2024 **Nevin Nyamongo & Mojorito Pizza**
