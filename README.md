@@ -1,6 +1,5 @@
 # Mojorito Pizza
 ![Design](Assets/Figma.png)
-### View the design [here](https://www.figma.com/file/x90cOf9ZZae3o4ZEyRe1Yx/Mojorito?node-id=0%3A1).
 #### The app helps customers order their favourite pizza from the comfort of their home, ***2022***
 #### By **Nevin Nyamongo**
 ## Description
